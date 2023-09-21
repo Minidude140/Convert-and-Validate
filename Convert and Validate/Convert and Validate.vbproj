@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6186638E-D474-47D1-8CDD-714BA6776DC9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Convert_and_Validate.Module1</StartupObject>
+    <StartupObject>Convert_and_Validate.ConvertAndValidate</StartupObject>
     <RootNamespace>Convert_and_Validate</RootNamespace>
     <AssemblyName>Convert and Validate</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="ConvertAndValidate.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

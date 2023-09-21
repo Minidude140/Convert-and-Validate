@@ -1,14 +1,14 @@
 ﻿'Zachary Christensen
 'RCET 2265
 'Fall 2023
-'{Project Name}
-'https://github.com/Minidude140
+'Convert and Validate
+'https://github.com/Minidude140/Convert-and-Validate.git
 
 
 Option Explicit On
 Option Strict On
 
-Module Module1
+Module ConvertAndValidate
 
     Sub Main()
 
