@@ -22,12 +22,14 @@ Module ConvertAndValidate
 
             userResponse = Console.ReadLine()
 
+
             Select Case userResponse
                 Case = "Q", "q"
                     Exit Do
                 Case Else
                     If ConversionValid(userResponse, aValidNumber) = True Then
 
+                        aValidNumber = CInt(userResponse)
                         Console.WriteLine($"{userResponse} converted successfully to {aValidNumber}!")
 
                     Else
